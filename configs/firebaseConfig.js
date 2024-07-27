@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 const firebaseConfig = {
-  apiKey: "AIzaSyATZ0FwWeQ1Med2kaYYj-X362XgEyVqZo0",
+  apiKey: process.API_KEY,
   authDomain: "todo-5af56.firebaseapp.com",
   projectId: "todo-5af56",
   storageBucket: "todo-5af56.appspot.com",
